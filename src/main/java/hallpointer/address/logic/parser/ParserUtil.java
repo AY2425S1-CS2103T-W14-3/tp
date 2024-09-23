@@ -13,7 +13,6 @@ import hallpointer.address.model.person.Address;
 import hallpointer.address.model.person.Email;
 import hallpointer.address.model.person.Name;
 import hallpointer.address.model.person.Phone;
-import hallpointer.address.model.person.Remark;
 import hallpointer.address.model.tag.Tag;
 
 /**

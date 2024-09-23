@@ -24,7 +24,7 @@ public class RemarkCommandParserTest {
         assertParseSuccess(parser, userInput, expectedCommand);
         // no remark
         userInput = targetIndex.getOneBased() + " " + PREFIX_REMARK;
-        expectedCommand = new RemarkCommand(INDEX_FIRST_PERSON,  new Remark(""));
+        expectedCommand = new RemarkCommand(INDEX_FIRST_PERSON, new Remark(""));
         assertParseSuccess(parser, userInput, expectedCommand);
     }
     @Test

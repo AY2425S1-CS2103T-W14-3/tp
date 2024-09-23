@@ -1,6 +1,5 @@
 package hallpointer.address.model.person;
 
-import static hallpointer.address.commons.util.AppUtil.checkArgument;
 import static java.util.Objects.requireNonNull;
 
 /**

@@ -1,10 +1,6 @@
 package hallpointer.address.logic.parser;
 
 import static hallpointer.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
-import static hallpointer.address.logic.parser.CliSyntax.PREFIX_ADDRESS;
-import static hallpointer.address.logic.parser.CliSyntax.PREFIX_EMAIL;
-import static hallpointer.address.logic.parser.CliSyntax.PREFIX_NAME;
-import static hallpointer.address.logic.parser.CliSyntax.PREFIX_PHONE;
 import static hallpointer.address.logic.parser.CliSyntax.PREFIX_REMARK;
 import static java.util.Objects.requireNonNull;
 
