@@ -17,6 +17,7 @@ import hallpointer.address.logic.commands.ExitCommand;
 import hallpointer.address.logic.commands.FindCommand;
 import hallpointer.address.logic.commands.HelpCommand;
 import hallpointer.address.logic.commands.ListCommand;
+import hallpointer.address.logic.commands.RemarkCommand;
 import hallpointer.address.logic.parser.exceptions.ParseException;
 
 /**
@@ -76,6 +77,9 @@ public class AddressBookParser {
 
         case HelpCommand.COMMAND_WORD:
             return new HelpCommand();
+
+        case RemarkCommand.COMMAND_WORD:
+            return new RemarkCommandParser().parse(arguments);
 
         default:
             logger.finer("This user input caused a ParseException: " + userInput);

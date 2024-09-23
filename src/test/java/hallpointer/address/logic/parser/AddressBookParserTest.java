@@ -2,6 +2,7 @@ package hallpointer.address.logic.parser;
 
 import static hallpointer.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
 import static hallpointer.address.logic.Messages.MESSAGE_UNKNOWN_COMMAND;
+import static hallpointer.address.logic.parser.CliSyntax.PREFIX_REMARK;
 import static hallpointer.address.testutil.Assert.assertThrows;
 import static hallpointer.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -22,9 +23,11 @@ import hallpointer.address.logic.commands.ExitCommand;
 import hallpointer.address.logic.commands.FindCommand;
 import hallpointer.address.logic.commands.HelpCommand;
 import hallpointer.address.logic.commands.ListCommand;
+import hallpointer.address.logic.commands.RemarkCommand;
 import hallpointer.address.logic.parser.exceptions.ParseException;
 import hallpointer.address.model.person.NameContainsKeywordsPredicate;
 import hallpointer.address.model.person.Person;
+import hallpointer.address.model.person.Remark;
 import hallpointer.address.testutil.EditPersonDescriptorBuilder;
 import hallpointer.address.testutil.PersonBuilder;
 import hallpointer.address.testutil.PersonUtil;
@@ -86,6 +89,14 @@ public class AddressBookParserTest {
     public void parseCommand_list() throws Exception {
         assertTrue(parser.parseCommand(ListCommand.COMMAND_WORD) instanceof ListCommand);
         assertTrue(parser.parseCommand(ListCommand.COMMAND_WORD + " 3") instanceof ListCommand);
+    }
+
+    @Test
+    public void parseCommand_remark() throws Exception {
+        final String remark = "Some remark.";
+        RemarkCommand command = (RemarkCommand) parser.parseCommand(RemarkCommand.COMMAND_WORD + " "
+                + INDEX_FIRST_PERSON.getOneBased() + " " + PREFIX_REMARK + remark);
+        assertEquals(new RemarkCommand(INDEX_FIRST_PERSON, new Remark(remark)), command);
     }
 
     @Test
