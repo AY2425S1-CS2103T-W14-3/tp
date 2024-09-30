@@ -8,7 +8,7 @@
         "about-us": "About Us",
         "project-team": "Project team",
         "john-doe": "John Doe",
-        "jane-doh": "Jane Doh",
+        "daniel-lai": "Daniel Lai",
         "johnny-doh": "Johnny Doh",
         "jean-doh": "Jean Doh",
         "keith-ong": "Keith Ong"
@@ -155,6 +155,11 @@
         "research-intern": "Research Intern",
         "publications-and-presentations": "Publications and Presentations"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/starchypotatocode.md",
+      "headings": {},
       "headingKeywords": {}
     }
   ]
