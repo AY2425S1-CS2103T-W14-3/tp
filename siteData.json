@@ -11,7 +11,7 @@
         "jane-doh": "Jane Doh",
         "johnny-doh": "Johnny Doh",
         "jean-doh": "Jean Doh",
-        "james-doh": "James Doh"
+        "keith-ong": "Keith Ong"
       },
       "headingKeywords": {}
     },
@@ -140,6 +140,20 @@
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/keithxun.md",
+      "headings": {
+        "keith-ong": "Keith Ong",
+        "education": "Education",
+        "achievements": "Achievements",
+        "work-experience": "Work Experience",
+        "process-automation-intern": "Process Automation Intern",
+        "software-engineer-swe-project-sabai": "Software Engineer (SWE), Project Sabai",
+        "research-intern": "Research Intern",
+        "publications-and-presentations": "Publications and Presentations"
       },
       "headingKeywords": {}
     }
