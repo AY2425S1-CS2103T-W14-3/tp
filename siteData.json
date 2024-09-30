@@ -10,7 +10,8 @@
         "qin-haichen": "Qin Haichen",
         "yuvraj-aryan-singh": "Yuvraj Aryan Singh",
         "daniel-lai": "Daniel Lai",
-        "keith-ong": "Keith Ong"
+        "keith-ong": "Keith Ong",
+        "tag-han": "Tag Han"
       },
       "headingKeywords": {}
     },
@@ -135,14 +136,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
-      "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
-      },
-      "headingKeywords": {}
-    },
-    {
       "src": "team/keithxun.md",
       "headings": {
         "keith-ong": "Keith Ong",
@@ -164,6 +157,16 @@
     {
       "src": "team/starchypotatocode.md",
       "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/taggyhan.md",
+      "headings": {
+        "education": "Education",
+        "work-experience": "Work Experience",
+        "clubs-and-amp-societies": "Clubs &amp; Societies",
+        "honours-certifications": "Honours/Certifications"
+      },
       "headingKeywords": {}
     },
     {
