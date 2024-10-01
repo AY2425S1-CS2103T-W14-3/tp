@@ -38,7 +38,6 @@
     },
     {
       "src": "DeveloperGuide.md",
-      "title": "Developer Guide",
       "headings": {
         "hallpointer-developer-guide": "HallPointer Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -151,7 +150,20 @@
     },
     {
       "src": "team/qinhaichen12.md",
-      "headings": {},
+      "headings": {
+        "qin-haichen": "Qin Haichen",
+        "education": "Education",
+        "national-university-of-singapore": "National University of Singapore",
+        "nus-high-school-of-mathematics-and-science": "NUS High School of Mathematics and Science",
+        "projects": "Projects",
+        "technical-skills": "Technical Skills",
+        "work-experience": "Work Experience",
+        "part-time-tutor-self-employed": "Part Time Tutor (Self-employed)",
+        "head-depot-clerk-singapore-armed-forces": "Head Depot Clerk (Singapore Armed Forces)",
+        "research-intern-cryowerx": "Research Intern (Cryowerx)",
+        "community-involvement": "Community Involvement",
+        "trained-repair-coach-repair-kopitiam-singapore": "Trained Repair Coach (Repair Kopitiam Singapore)"
+      },
       "headingKeywords": {}
     },
     {
