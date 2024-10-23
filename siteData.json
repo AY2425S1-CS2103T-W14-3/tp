@@ -113,7 +113,7 @@
         "viewing-help-help": "Viewing help : help",
         "adding-a-member-add-member": "Adding a member: add_member",
         "listing-all-members-list-members": "Listing all members :  list_members",
-        "editing-a-member-update-member": "Editing a member : update_member",
+        "updating-a-member-update-member": "Updating a member : update_member",
         "locating-members-by-name-find-members": "Locating members by name: find_members",
         "deleting-a-member-delete-member": "Deleting a member : delete_member",
         "clearing-all-entries-clear": "Clearing all entries : clear",
