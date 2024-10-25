@@ -3,7 +3,6 @@
   "pages": [
     {
       "src": "AboutUs.md",
-      "title": "About Us",
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
@@ -17,7 +16,6 @@
     },
     {
       "src": "Configuration.md",
-      "title": "Configuration guide",
       "headings": {
         "configuration-guide": "Configuration guide"
       },
@@ -25,7 +23,6 @@
     },
     {
       "src": "DevOps.md",
-      "title": "DevOps guide",
       "headings": {
         "devops-guide": "DevOps guide",
         "build-automation": "Build automation",
@@ -69,7 +66,6 @@
     },
     {
       "src": "Documentation.md",
-      "title": "Documentation guide",
       "headings": {
         "documentation-guide": "Documentation Guide"
       },
@@ -77,7 +73,6 @@
     },
     {
       "src": "Logging.md",
-      "title": "Logging guide",
       "headings": {
         "logging-guide": "Logging guide"
       },
@@ -85,7 +80,6 @@
     },
     {
       "src": "SettingUp.md",
-      "title": "Setting up and getting started",
       "headings": {
         "setting-up-and-getting-started": "Setting up and getting started",
         "setting-up-the-project-in-your-computer": "Setting up the project in your computer",
@@ -95,7 +89,6 @@
     },
     {
       "src": "Testing.md",
-      "title": "Testing guide",
       "headings": {
         "testing-guide": "Testing guide",
         "running-tests": "Running tests",
@@ -105,7 +98,6 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
         "hallpointer-user-guide": "HallPointer User Guide",
         "quick-start": "Quick start",
@@ -129,7 +121,6 @@
     },
     {
       "src": "index.md",
-      "title": "HallPointer",
       "headings": {
         "hallpointer": "HallPointer",
         "key-features": "Key Features",
@@ -158,15 +149,14 @@
         "qin-haichen": "Qin Haichen",
         "education": "Education",
         "national-university-of-singapore": "National University of Singapore",
-        "nus-high-school-of-mathematics-and-science": "NUS High School of Mathematics and Science",
+        "not-raffles-institution": "NOT RAFFLES INSTITUTION",
         "projects": "Projects",
         "technical-skills": "Technical Skills",
         "work-experience": "Work Experience",
         "part-time-tutor-self-employed": "Part Time Tutor (Self-employed)",
         "head-depot-clerk-singapore-armed-forces": "Head Depot Clerk (Singapore Armed Forces)",
         "research-intern-cryowerx": "Research Intern (Cryowerx)",
-        "community-involvement": "Community Involvement",
-        "trained-repair-coach-repair-kopitiam-singapore": "Trained Repair Coach (Repair Kopitiam Singapore)"
+        "community-involvement": "Community Involvement"
       },
       "headingKeywords": {}
     },
