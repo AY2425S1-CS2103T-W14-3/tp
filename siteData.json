@@ -108,6 +108,8 @@
         "updating-a-member-update-member": "Updating a member : update_member",
         "locating-members-by-name-find-members": "Locating members by name: find_members",
         "deleting-a-member-delete-member": "Deleting a member : delete_member",
+        "adding-a-session-add-session": "Adding a Session: add_session",
+        "deleting-a-session-delete-session": "Deleting a Session: delete_session",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
