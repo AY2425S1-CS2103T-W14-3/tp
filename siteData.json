@@ -111,6 +111,7 @@
         "locating-members-by-name-find-members": "Locating members by name: find_members",
         "deleting-a-member-delete-member": "Deleting a member : delete_member",
         "adding-a-session-add-session": "Adding a Session: add_session",
+        "locating-members-with-associated-sessions-by-name-find-sessions": "Locating members with associated sessions by name: find_sessions",
         "deleting-a-session-delete-session": "Deleting a Session: delete_session",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
