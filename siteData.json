@@ -103,7 +103,8 @@
       "headings": {
         "hallpointer-user-guide": "HallPointer User Guide",
         "table-of-contents": "Table of Contents",
-        "quick-start": "Quick start",
+        "getting-started-quickly": "Getting Started Quickly",
+        "command-summary": "Command summary",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-member-add-member": "Adding a member: add_member",
@@ -121,8 +122,7 @@
         "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
         "modification-of-sessions-across-all-members-coming-in-v2-0": "Modification of sessions across all members [coming in v2.0]",
         "faq": "FAQ",
-        "known-issues": "Known Issues",
-        "command-summary": "Command summary"
+        "known-issues": "Known Issues"
       },
       "headingKeywords": {}
     },
