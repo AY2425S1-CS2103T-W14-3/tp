@@ -122,7 +122,15 @@
         "saving-the-data": "Saving the data",
         "editing-the-data-file": "Editing the data file",
         "faq": "FAQ",
-        "known-issues": "Known Issues"
+        "known-issues": "Known Issues",
+        "glossary": "Glossary",
+        "graphical-user-interface-gui": "Graphical User Interface (GUI)",
+        "command-terminal": "Command Terminal",
+        "tag": "Tag",
+        "session": "Session",
+        "json-file": "JSON File",
+        "points": "Points",
+        "telegram-handle": "Telegram Handle"
       },
       "headingKeywords": {}
     },
